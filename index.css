@@ -4,6 +4,7 @@
 
 a:hover, a:focus {
 	text-decoration: inherit;
+	box-shadow: inherit;
 }
 
 .home div {
@@ -30,7 +31,8 @@ a:hover, a:focus {
 }
 
 .content {
-	columns: 2;
+	width: 80%;
+	background-color: red;
 }
 
 .randomQuote {
