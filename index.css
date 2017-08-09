@@ -30,13 +30,25 @@ a:hover, a:focus {
 	text-align: center;
 }
 
-#intro div {
-	
+#name div {
+	text-align: left;
+	font-size: 30px;
+}
+
+#contacts div {
+	text-align: right;
+	font-size: 15px;
 }
 
 #randomQuote {
 	text-align: right;
 	color: white;
+}
+
+header {
+	width: 100%;
+	background-color: green;
+	margin: 5% 5% 5% 5%;
 }
 
 body {
