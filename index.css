@@ -1,6 +1,13 @@
 /*
 	Homepage CSS
 */
+header {
+	position: absolute;
+    top: 80px;
+    width: 90%;
+    height: 100px;
+	background-color: green;
+}
 
 a:hover, a:focus {
 	text-decoration: inherit;
@@ -50,16 +57,7 @@ a:hover, a:focus {
 	color: white;
 }
 
-header {
-	position: absolute;
-    top: 80px;
-    width: 90%;
-    height: 100px;
-	background-color: green;
-}
-
 body {
 	background-color: purple;
 	background-size: 100% 100%;
 }
-
