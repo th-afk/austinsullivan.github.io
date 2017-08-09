@@ -30,15 +30,21 @@ a:hover, a:focus {
 	text-align: center;
 }
 
-#name div {
+#name {
+	position: absolute;
+	width: 45%;
+	top: 100px;
+	left: 10%;
 	text-align: left;
 	font-size: 30px;
 }
 
-#contacts div {
-	text-align: right;
+#contacts {
+	position: absolute;
+	width: 45%;
+	top: 100px;
+	right: 10%;
 	font-size: 15px;
-	vertical-align: right;
 }
 
 #randomQuote {
@@ -52,7 +58,6 @@ header {
     width: 90%;
     height: 100px;
 	background-color: green;
-	/*margin: 5% 5% 5% 5%;*/
 }
 
 body {
