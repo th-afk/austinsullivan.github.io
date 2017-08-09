@@ -1,12 +1,23 @@
 /*
 	Homepage CSS
 */
+nav {
+	position: relative;
+	top: 100px;
+	border: 3px solid black;
+	color: white;
+	text-align: center;
+	list-style-type: square;
+	vertical-align: center;
+}
+
 header {
 	position: absolute;
     top: 80px;
     width: 90%;
     height: 100px;
 	background-color: green;
+	vertical-align: center;
 }
 
 a:hover, a:focus {
@@ -43,15 +54,6 @@ a:hover, a:focus {
 	width: 45%;
 	right: 10%;
 	font-size: 15px;
-}
-
-#menu nav {
-	position: relative;
-	top: 100px;
-	border: 3px solid black;
-	color: white;
-	text-align: center;
-	list-style-type: square;
 }
 
 #randomQuote {
