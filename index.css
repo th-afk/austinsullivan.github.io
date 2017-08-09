@@ -11,15 +11,23 @@ a:hover, a:focus {
 }
 
 .header nav {
-	background-color: white;
+	color: white;
 	position: sticky;
 	top: 0; /* Makes header stick to top */
 	z-index: 10;
 
 }
 
-.menuItem ul {
-	background-color: red;
+.menu {
+	color: red;
+}
+
+.menu:hover {
+	color: orange;
+}
+
+.content {
+	columns: 2;
 }
 
 body {
