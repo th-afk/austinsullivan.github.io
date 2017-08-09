@@ -46,14 +46,14 @@ a:hover, a:focus {
 	width: 45%;
 	left: 10%;
 	text-align: left;
-	font-size: 30px;
+	font-size: 44px;
 }
 
 #contacts {
 	position: absolute;
 	width: 45%;
-	right: 10%;
-	font-size: 15px;
+	right: 5%;
+	font-size: 16px;
 }
 
 #randomQuote {
