@@ -38,6 +38,7 @@ a:hover, a:focus {
 #contacts div {
 	text-align: right;
 	font-size: 15px;
+	vertical-align: right;
 }
 
 #randomQuote {
@@ -46,7 +47,7 @@ a:hover, a:focus {
 }
 
 header {
-	width: 100%;
+	width: 90%;
 	background-color: green;
 	margin: 5% 5% 5% 5%;
 }
