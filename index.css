@@ -1,0 +1,25 @@
+/*
+	Homepage CSS
+*/
+
+.home div {
+
+}
+
+.header nav {
+	background-color: white;
+	position: sticky;
+	top: 0; /* Makes header stick to top */
+	z-index: 10;
+
+}
+
+.menuItem div {
+	background-color: red;
+}
+
+body {
+	background-color: purple;
+	background-size: 100% 100%;
+}
+
