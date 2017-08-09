@@ -22,6 +22,7 @@ a:hover, a:focus {
 
 .menuItems:hover {
 	color: white;
+
 }
 
 .content {
@@ -50,6 +51,7 @@ a:hover, a:focus {
 	border: 3px solid black;
 	color: white;
 	text-align: center;
+	list-style-type: square;
 }
 
 #randomQuote {
