@@ -7,13 +7,13 @@ a:hover, a:focus {
 	box-shadow: inherit;
 }
 
-.menu {
+.menuItems {
 	background-color: yellow;
 	color: purple;
 	font-size: 16px;
 }
 
-.menu:hover {
+.menuItems:hover {
 	color: white;
 }
 
@@ -22,11 +22,9 @@ a:hover, a:focus {
 	background-color: red;
 }
 
-#header nav {
+#menu nav {
+	position: relative;
 	color: white;
-	position: sticky;
-	top: 0; /* Makes header stick to top */
-	z-index: 10;
 	text-align: center;
 }
 
