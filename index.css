@@ -15,12 +15,14 @@ a:hover, a:focus {
 	position: sticky;
 	top: 0; /* Makes header stick to top */
 	z-index: 10;
-
+	text-align: center;
 }
 
 .menu {
 	background-color: yellow;
 	color: purple;
+	font-size: 16px;
+
 }
 
 .menu:hover {
@@ -29,6 +31,11 @@ a:hover, a:focus {
 
 .content {
 	columns: 2;
+}
+
+.randomQuote {
+	text-align: right;
+	color: white;
 }
 
 body {
