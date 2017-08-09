@@ -19,11 +19,12 @@ a:hover, a:focus {
 }
 
 .menu {
-	color: red;
+	background-color: yellow;
+	color: purple;
 }
 
 .menu:hover {
-	color: orange;
+	color: white;
 }
 
 .content {
