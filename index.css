@@ -22,18 +22,9 @@ a:hover, a:focus {
 	background-color: red;
 }
 
-#menu nav {
-	position: absolute;
-	top: 20px;
-	border: 3px solid black;
-	color: white;
-	text-align: center;
-}
-
 #name {
 	position: absolute;
 	width: 45%;
-	top: 100px;
 	left: 10%;
 	text-align: left;
 	font-size: 30px;
@@ -42,9 +33,16 @@ a:hover, a:focus {
 #contacts {
 	position: absolute;
 	width: 45%;
-	top: 100px;
 	right: 10%;
 	font-size: 15px;
+}
+
+#menu nav {
+	position: relative;
+	top: 100px;
+	border: 3px solid black;
+	color: white;
+	text-align: center;
 }
 
 #randomQuote {
