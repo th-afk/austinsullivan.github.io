@@ -41,13 +41,18 @@ a:hover, a:focus {
 
 .menuItems:hover {
 	color: white;
+}
 
+#banner {
+	float: left;
+	width: 100%;
+	display: inline-table;
+	list-style-type: none;
 }
 
 #name {
 	position: relative;
-	width: 40%;
-	float: left;
+	width: 45%;
 	text-align: center;
 	font-size: 250%;
 	color: white;
@@ -55,7 +60,7 @@ a:hover, a:focus {
 
 #contacts {
 	position: relative;
-	width: 40%;
+	width: 45%;
 	float: right;
 	font-size: medium;
 }
