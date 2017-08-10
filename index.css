@@ -6,7 +6,9 @@ nav {
 	list-style-type: square;
 	vertical-align: center;
 	position: sticky;
+	width: 100%;
 	z-index: 11;
+	margin: auto;
 }
 
 header {
@@ -16,9 +18,9 @@ header {
 	background-color: green;
 	vertical-align: center;
 	border: 3px solid black;
-	padding: 2% 2% 2% 2%;
-	overflow: auto;
-	display: inline-block;
+	display: inline-table;
+	padding: 1% 0px 1% 0px;
+	/*top, right, bottom, left*/
 }
 
 a:hover, a:focus {
@@ -42,28 +44,26 @@ a:hover, a:focus {
 
 }
 
-.content {
-	position: relative;
-	width: 80%;
-	background-color: red;
-}
-
 #name {
-	position: absolute;
+	position: relative;
 	width: 40%;
-	left: 10%;
-	text-align: left;
+	float: left;
+	text-align: center;
 	font-size: 250%;
 	color: white;
 }
 
 #contacts {
-	position: absolute;
+	position: relative;
 	width: 40%;
-	right: 5%;
+	float: right;
 	font-size: medium;
-/*	column-count: 2;
-	column-fill: auto;*/
+}
+
+.content {
+	position: relative;
+	width: 80%;
+	background-color: red;
 }
 
 #randomQuote {
@@ -84,7 +84,8 @@ body {
 
 }
 
-.clear:after {
+.clear {
     clear: both;
     content: "";
     display: table;
+}
