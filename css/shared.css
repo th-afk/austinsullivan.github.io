@@ -1,5 +1,5 @@
 /*
-	Homepage CSS
+	Shared CSS
 */
 nav {
 	text-align: center;
@@ -7,46 +7,62 @@ nav {
 	vertical-align: center;
 	position: sticky;
 	width: 100%;
-	z-index: 11;
 	margin: 0;
-	padding: 1% 0 1% 0;
+	padding: 0;
 	border: 0;
 	outline: 0;
 	font-size: 100%;
-	background: yellow;
+	background: #aa42f4;
+	opacity: 0.8;
 }
 
 nav li:hover {
 	opacity: 0.5;
-	color: white;
+	background-color: #ca86f9;
+}
+
+nav li {
+	padding: 3% 0 3% 0;
+	text-decoration: none;
 }
 
 .menuItems {
-	color: purple;
 	list-style-type: none;
 	text-align: center;
 	text-decoration: none;
-	font-size: 100%;
+	font-size: 125%;
 	margin: 0;
-	padding: 0;
 	outline: 0;
 	columns: 4;
+	column-gap: 0;
 }
 
 header {
 	position: relative;
-    top: 10px;
-    width: 100%;
-	background-color: green;
+	width: 100%;
+	background-color: #3a0272;
+	opacity: 0.8;
 	vertical-align: center;
 	display: inline-table;
-	/*padding: 1% 0 1% 0;*/
+	padding: 1% 0 1% 0;
 	/*top, right, bottom, left*/
+}
+
+a {
+	color: inherit;
 }
 
 a:hover, a:focus {
 	text-decoration: inherit;
 	box-shadow: inherit;
+}
+
+body {
+	background-image: url('https://lh3.googleusercontent.com/clcfLw0mYHRFsxo4nVuYxqjWUw705Nh1rJIqC47rcq_tgoSqg_q2wCO2-f1YSrkLJ-NN0AKLTWEumbOJaXkE6PDfo9p7ICavHeUruY9E3HpoZKbpyVc4OMCAWCE0nSSfDUOn98fkmQ');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 #banner {
@@ -72,33 +88,32 @@ a:hover, a:focus {
 #contacts {
 	float: right;
 	font-size: medium;
+	color: whitesmoke;
+	text-align: left;
 }
 
 .content {
-	position: relative;
-	width: 80%;
-	background-color: red;
+	background-color: #496149;
+	padding: 2%;
+	margin: 1% 10%;
 }
 
-#randomQuote {
-	text-align: right;
-	color: white;
+#backdrop {
+	opacity: 0.4;
 }
 
-body {
-	position: relative;
-	background-color: purple;
-	background-size: 100% 100%;
-}
-
-.profilePics {
-	width: 40%;
-	z-index: 10;
-	margin: 5%;
+.content p {
+  opacity: initial;
+	color: #2a0044;
 }
 
 .clear {
     clear: both;
     content: "";
     display: table;
+}
+
+#randomQuote {
+	text-align: right;
+	color: white;
 }

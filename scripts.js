@@ -1,7 +1,8 @@
 window.onload = () => {
-	const text = ["Insert inspirational quotes here", "So inspirational", "That's terrific"];
+	const text = ["Awesome quote here",
+	              'Such great quotes here'];
 	const x = Math.floor(Math.random() * text.length);
-	$('#randomQuote').html(text[x]);
+	$('#randonQuote').html(text[x]);
 };
 
 
