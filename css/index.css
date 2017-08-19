@@ -2,10 +2,6 @@
 	Homepage CSS
 */
 
-.profilePics {
-	width: 40%;
-	z-index: 10;
-	margin: 5%;
+#home {
+	background-color: #ca86f9;
 }
-
-

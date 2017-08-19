@@ -8,7 +8,6 @@ nav {
 	position: sticky;
 	width: 100%;
 	margin: 0;
-	padding: 0;
 	border: 0;
 	outline: 0;
 	font-size: 100%;
@@ -23,18 +22,21 @@ nav li:hover {
 
 nav li {
 	padding: 3% 0 3% 0;
+}
+
+nav a {
 	text-decoration: none;
 }
 
 .menuItems {
 	list-style-type: none;
-	text-align: center;
 	text-decoration: none;
 	font-size: 125%;
 	margin: 0;
-	outline: 0;
 	columns: 4;
 	column-gap: 0;
+	padding-left: 0;
+	font-family: 'Play', sans-serif;
 }
 
 header {
@@ -58,11 +60,12 @@ a:hover, a:focus {
 }
 
 body {
-	background-image: url('https://lh3.googleusercontent.com/clcfLw0mYHRFsxo4nVuYxqjWUw705Nh1rJIqC47rcq_tgoSqg_q2wCO2-f1YSrkLJ-NN0AKLTWEumbOJaXkE6PDfo9p7ICavHeUruY9E3HpoZKbpyVc4OMCAWCE0nSSfDUOn98fkmQ');
+	background-image: url('../images/Manukau.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	margin: 0;
 }
 
 #banner {
@@ -81,8 +84,9 @@ body {
 
 #name {
 	text-align: center;
-	font-size: 250%;
-	color: white;
+	font-size: 300%;
+	color: whitesmoke;
+	font-family: 'Megrim', cursive;
 }
 
 #contacts {
@@ -90,21 +94,41 @@ body {
 	font-size: medium;
 	color: whitesmoke;
 	text-align: left;
+	font-family: 'Abel', sans-serif;
 }
 
 .content {
-	background-color: #496149;
+	background-color: rgba(174,145,224,0.5);
 	padding: 2%;
 	margin: 1% 10%;
-}
-
-#backdrop {
-	opacity: 0.4;
+	border-radius: 25px;
+	font-family: 'Play', sans-serif;
 }
 
 .content p {
   opacity: initial;
 	color: #2a0044;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: #3a0272;
+	opacity: 0.8;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 10%;
+	padding: 2%;
+	font-family: 'Abel', sans-serif;
+}
+
+.profilePics {
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+	display: block;
+	box-shadow: 0px 0px 10px 10px rgba(58,2,114,0.4);
 }
 
 .clear {

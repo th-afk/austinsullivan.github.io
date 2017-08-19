@@ -2,8 +2,6 @@
 	Bio CSS
 */
 
-.profilePics {
-	width: 40%;
-	z-index: 10;
-	margin: 5%;
+#bio {
+	background-color: #ca86f9;
 }
