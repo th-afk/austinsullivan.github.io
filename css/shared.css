@@ -67,15 +67,6 @@ a:hover, a:focus {
 	box-shadow: inherit;
 }
 
-body {
-	background-image: url('../images/Manukau.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	margin: 0;
-}
-
 #banner {
 	width: 100%;
 	display: inline-flex;
@@ -98,6 +89,16 @@ body {
 	color: whitesmoke;
 	text-align: left;
 	font-family: 'Abel', sans-serif;
+	vertical-align: middle;
+}
+
+body {
+	background-image: url('../images/Manukau.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
 }
 
 .content {
@@ -139,14 +140,6 @@ footer ol {
 #footerInfo {
 	padding: 0 5%;
 	text-align: left;
-}
-
-.profilePics {
-	width: 80%;
-	margin: auto;
-	margin-top: 10%;
-	display: block;
-	box-shadow: 0px 0px 10px 10px rgba(58,2,114,0.4);
 }
 
 .inlineImage {
