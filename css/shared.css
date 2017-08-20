@@ -43,7 +43,7 @@ header {
 	width: 100%;
 	background-color: #3a0272;
 	opacity: 0.8;
-	padding: 1% 0 1% 0;
+	padding: 1% 0 0 0;
 	/*top, right, bottom, left*/
 }
 
@@ -123,6 +123,17 @@ footer {
 	margin-top: 10%;
 	padding: 2% 0;
 	font-family: 'Abel', sans-serif;
+	display: inline-flex;
+	justify-content: flex-end;
+}
+
+footer div {
+	padding: 1%;
+}
+
+#footerInfo {
+	padding: 0 2%;
+	text-align: left;
 }
 
 .profilePics {
