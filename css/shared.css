@@ -119,20 +119,25 @@ footer {
 	background-color: #3a0272;
 	opacity: 0.8;
 	color: whitesmoke;
+	font-size: medium;
+	font-family: 'Abel', sans-serif;
 	text-align: center;
 	margin-top: 10%;
 	padding: 2% 0;
-	font-family: 'Abel', sans-serif;
 	display: inline-flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 footer div {
-	padding: 1%;
+	padding: 0 1%;
+}
+
+footer ol {
+	margin: 0;
 }
 
 #footerInfo {
-	padding: 0 2%;
+	padding: 0 5%;
 	text-align: left;
 }
 
