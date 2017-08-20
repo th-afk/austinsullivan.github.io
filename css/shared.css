@@ -82,6 +82,7 @@ a:hover, a:focus {
 	color: whitesmoke;
 	font-family: 'Megrim', cursive;
 	padding: 2% 0;
+	vertical-align: middle;
 }
 
 #contacts {
