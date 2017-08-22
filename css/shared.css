@@ -62,6 +62,10 @@ a {
 	color: inherit;
 }
 
+a:visited {
+	text-decoration: initial;
+}
+
 a:hover, a:focus {
 	text-decoration: inherit;
 	box-shadow: inherit;
