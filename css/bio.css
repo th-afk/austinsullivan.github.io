@@ -6,6 +6,20 @@
 	background-color: #ca86f9;
 }
 
+.languages {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.languageLogo {
+	width: inherit;
+	height: 100%;
+	vertical-align: middle;
+	margin: auto;
+	padding: 2%;
+}
+
 embed {
 	width: 100%;
 	height: 500px;
