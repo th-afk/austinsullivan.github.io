@@ -25,6 +25,7 @@
 .section p {
 	color: whitesmoke !important;
 	text-align: center;
+	margin: auto;
 }
 
 .sectionHeader {
