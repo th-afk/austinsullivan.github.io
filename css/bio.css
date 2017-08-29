@@ -16,6 +16,17 @@
 	border-radius: 0 0 25px 25px;
 }
 
+.section div {
+    align-self: center;
+    width: inherit;
+    padding: 1%;
+}
+
+.section p {
+	color: whitesmoke !important;
+	text-align: center;
+}
+
 .sectionHeader {
 	width: 94%;
 	background: rgba(58, 2, 114, 0.5);
@@ -27,7 +38,7 @@
 }
 
 .bioLogo {
-	width: inherit;
+	width: 100%;
 	vertical-align: middle;
 	margin: auto;
 	padding: 2%;
